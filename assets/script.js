@@ -64,6 +64,20 @@ function handleFormSubmit (element) {
     window.localStorage.setItem('time', JSON.stringify(parseTime))
 
     console.log(parent)
+    // var text =''
+  
+    // $("textarea.textarea").each(function(){
+    //         text += $(this).val().trim() + "\n";
+    //       })
+
+    // textArea.textContent = text;      
+    // localStorage.setItem('message', text);
+
+   //var messages = $('.textarea'); 
+   
+    
+    // text = savedVals
+    // textArea.textContent = text;
 }
 
 saveButtonEl.on('click', function (event) {
