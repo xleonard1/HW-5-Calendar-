@@ -16,3 +16,5 @@ The acceptance criteria was as follows:
 
 # DeployedURL
 
+https://xleonard1.github.io/HW-5-Calendar-/
+https://github.com/xleonard1/HW-5-Calendar-.git
