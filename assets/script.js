@@ -16,8 +16,12 @@ setInterval(displayTime, 1000);
 function checkTime() {
     var timeNow = moment().format('H');
     var timeBlockElements = $(".textarea");
-    var localStorageTime = window.localStorage.getItem('time') || {};
-    var parsedTime = JSON.parse(localStorageTime);
+    var localStorageTime = window.localStorage.getItem('time');
+    var parsedTime = {};
+    if(localStorageTime){
+        parsedTime = JSON.parse(localStorageTime);
+    }
+    
 
     for (var i = 0; i < timeBlockElements.length; i++) {
         var elementID = timeBlockElements[i].id;
